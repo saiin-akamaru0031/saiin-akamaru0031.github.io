@@ -1,0 +1,654 @@
+
+body{
+    min-height: 100vh;
+    flex-direction: column;
+    font-family:"Zen Old Mincho", serif;
+    font-size:16px;
+    line-height:1.8;
+    letter-spacing: 0.05rem;
+    color:#474747;
+    background-color:#F6F0E8;
+    text-align: center;
+}
+main{
+    padding-top: 60px;
+}
+section{
+    margin-bottom: 60px;
+}
+.innerWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+/*----------------*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color:#B71C1C;
+    backdrop-filter: blur(4px);
+    color: #fff;
+}
+.headerWrap{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header h1 img{
+    display: flex;
+    text-align: left;
+    height: 42px;
+    margin-left: 12px ;
+}
+
+header nav ul{
+    display:flex;
+    text-align:right;
+}
+header nav li{
+    font-size: 0.9rem;
+    color:#fff;
+    padding: 16px 24px;
+}
+header nav li img{
+    height: 30px;
+}
+header nav a:hover{
+    text-decoration: underline solid #fff;
+}
+
+.navIcon {
+    display: none;
+}
+/*----------------*/
+
+.hero{
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroLogo {
+    width: 70%;
+}
+.heroLogo img{
+    width: 100%;
+    height: auto;
+}
+
+
+.menuBtn,
+.bookingBtn,
+.sakeBtn{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.btn{
+    width: 300px;
+    text-align: center;
+    background:#1A365D;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:50px;
+    transition:.3s;
+}
+.btn:hover{
+    background:#F6F0E8;
+    color: #1A365D;
+    border: #1A365D solid 2px;
+}
+/* 予約ボタンだけ */
+.btnReserve{
+    background:#B71C1C;
+    color: #fff;
+}
+
+.btnReserve:hover{
+    background:#F6F0E8;
+    color: #B71C1C;
+    border: #B71C1C solid 2px;
+}
+
+.sectionTitle{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+/*------------sake-----------*/
+
+.sakeItem {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+.sakeItem img{
+    width: 100%;
+    max-height: 400px;
+}
+.sakeItem article p{
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+/*------------menu-----------*/
+
+
+
+/*------------photogallery-----------*/
+
+.slider{
+    width: 100%;
+}
+.bx-wrapper {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.slider img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+}
+
+/*------------access-----------*/
+
+.accessItem{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 50px;
+    text-align: left;
+}
+
+.tel-link {
+    border-bottom: 1px solid #ddd;
+}
+.tel-link:hover{
+    border-bottom: 1px solid #1A365D;
+    color: #1A365D;
+}
+.pdf{
+    color: #B71C1C;
+
+}
+.pdf:hover{
+    border-bottom: 1px solid #B71C1C;
+}
+.storeInfo dt {
+    font-weight: bold;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.storeInfo dd {
+    padding: 15px 0 20px;
+}
+.storeInfo dd p:last-child {
+    margin-bottom: 0;
+}
+.storeInfo .note {
+    font-size: 0.9rem;
+}
+
+
+
+/*------------footer-----------*/
+
+footer{
+    display: block;
+    background-color: #B71C1C;
+    color: #F6F0E8;
+    font-size: 0.8rem;
+    padding: 50px 0 20px 0 ;
+}
+.footerInfo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+.footerInfo dl{
+    text-align: left;
+    width: 240px;
+}
+.footerInfo dt {
+    font-weight: bold;
+    padding-bottom: 8px;
+    border-bottom: 1px solid ;
+}
+.snsIcon p img{
+    height: 42px;
+}
+small{
+    display: block;
+    padding-top: 20px;
+}
+
+
+/*以下下層ページ*/
+
+/*各Heroについて*/
+
+.subhero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.drinkhero{
+    background-image: url(images/drinkhero.png);
+}
+.partyhero{
+    background-image: url(images/partyhero.png);
+}
+.sakehero{
+    background-image: url(images/sakehero.png);
+}
+
+/*----------sake------------*/
+
+.sakeWrap{
+    display: flex;
+    gap: 50px;
+}
+.akamaruCard{
+    flex:1;
+    margin: 0 auto;
+}
+.akamaruCard img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+h3{
+    font-weight: bold;
+    text-align:center;
+    margin: 30px 0;
+}
+
+.orderItem {
+    display: flex;
+    width: 100%;
+}
+.orderText{
+    width: 45%;
+}
+.orderImg {
+    width: 55%;
+}
+.sakeText,
+.orderText {
+    display: flex;
+    flex: 1;
+    font-size: 0.9rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.orderText p {
+    margin-bottom: 2rem;
+}
+
+.orderImg img {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: contain;
+}
+
+.orderText p {
+    padding-bottom: 1rem;
+}
+
+
+/* ----日本酒とは---- */
+.sakeCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sakeCard {
+    padding: 30px 25px;
+    border: 1px solid #8b6f5a;
+    background-color: #fffdf9;
+}
+
+.cardNumber {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.sakeCard h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.sakeCard p {
+    line-height: 1.9;
+    font-size: 14px;
+}
+
+
+
+/*----------drink-----------*/
+
+
+.menuWrap{
+    display: flex;
+    gap: 50px;
+}
+.menuCard{
+    flex:1;
+    margin: 0 auto;
+}
+.menuCard img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    display:block;
+}
+.moreBtn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.moreBtn button {
+    border-bottom: 1px solid #474747;
+    color: #474747;
+    font-size: 0.9rem;
+    padding: 5px 1rem;
+    transition:.3s;
+}
+.moreBtn button:hover{
+    border-bottom: 1px solid #B71C1C;
+    color: #B71C1C;
+}
+
+
+/*写真一覧モーダル*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-y: auto;
+    padding: 50px 20px;
+}
+
+.galleryModalContent {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #F6F0E8;
+    padding: 50px 40px;
+}
+
+
+/* 閉じるボタン */
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #1A365D;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+/* 写真一覧 */
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.galleryItem {
+    margin: 0;
+    cursor: pointer;
+}
+.galleryItem img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.galleryItem:hover img {
+    opacity: 0.8;
+}
+.galleryItem figcaption {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+/* =========================
+   写真拡大モーダル
+======================== */
+
+
+.photoModal {
+    display: none;
+
+    position: fixed;
+
+    z-index: 2000;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.9);
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding: 30px;
+}
+
+
+.photoModal img {
+    display: block;
+
+    max-width: 90%;
+    max-height: 80vh;
+
+    object-fit: contain;
+}
+
+
+.photoModal p {
+    color: white;
+
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+
+/* 拡大写真の閉じるボタン*/
+
+.photoCloseBtn {
+    position: absolute;
+
+    top: 20px;
+    right: 30px;
+
+    background: none;
+    border: none;
+
+    color: white;
+
+    font-size: 40px;
+
+    cursor: pointer;
+}
+
+
+
+/*-----menu-----*/
+
+.menu{
+    display: block;
+    width:60%;
+    max-width:900px;
+    margin: 0px auto 60px auto ;
+    padding-top: 30px;
+    text-align: left;
+}
+.menu ul {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu ul li{
+    display: flex;
+    line-height: 2.5;
+}
+.name{
+    display:flex;
+    align-items:center;
+    flex:1;
+}
+.name::after{
+    content:"";
+    flex:1;
+    border-bottom:1px dotted #1A365D;
+    margin:0 12px;
+}
+.price{
+    margin-left: auto;
+    margin-right: 20px;
+    white-space:nowrap;
+    font-weight:bold;
+    color:#7B1E24;
+}
+.menu p,.menuPDF{
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
+.drink a{
+    border-bottom: #B71C1C solid 1px;
+}
+.menuPDF{
+    text-align: right;
+}
+
+
+
+/* タブボタン */
+.tab{
+    display:flex;
+    justify-content:center;
+    margin-bottom:40px;
+}
+.tabBtn{
+    background:#F6F0E8;
+    color:#1A365D;
+    border:#1A365D solid 1px;
+    padding:15px 40px;
+    cursor:pointer;
+}
+.tabBtn.active{
+    background:#1A365D;
+    color: #fff;
+}
+.tabBtn:first-child{
+    border-radius:30px 0 0 30px;
+}
+.tabBtn:last-child{
+    border-radius:0 30px 30px 0;
+}
+
+/* タブ切り替え設定 */
+
+.tabContent{
+    display:none;
+}
+.tabContent.active{
+    display:block;
+}
+
+
+/* アコーディオン */
+
+details{
+    border-bottom:1px solid #ddd;
+    padding:15px 0;
+}
+summary{
+    list-style: none;
+    cursor:pointer;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+summary::after{
+    content:"+";
+    float:right;
+}
+details[open] summary::after {
+    content: "−";
+}
+details ul{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+/*--------------party------------*/
+
+.partymenu summary {
+    display: flex;
+}
+
+
+.atention{
+    width: 60%;
+    margin: 0 auto;
+}
+.atention p{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight:bold;
+    margin-bottom: 1rem;
+}
+.atention ul li{
+    text-align: left;
+}
+
+

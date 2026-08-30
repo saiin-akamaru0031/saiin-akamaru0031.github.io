@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>呑み処　赤まる　京都西院居酒屋</title>
+<link rel="icon" href="images/icon.png">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mobile.css">
+
+
+
+</head>
+<body>
+<header>
+ <div class="headerWrap">
+    <h1 class="logo">
+        <a href="index.html"><img src="images/icon3.png" alt="logo"></a>
+    </h1>
+        <nav class="gNav">
+            <ul class="headerNav">
+                <li><a href="index.html#home">
+                    <span class="navText">ホーム</span>
+                    <img class="navIcon" src="images/icon_home.png" alt="ホーム">
+                </a></li>
+                <li><a href="sake.html">
+                    <span class="navText">日本酒</span>
+                    <img class="navIcon" src="images/icon_sake.png" alt="日本酒">
+                </a></li>
+                <li><a href="drink.html">
+                    <span class="navText">おしながき</span>
+                    <img class="navIcon" src="images/icon_menu.png" alt="おしながき">
+                </a></li>
+                <li><a href="party.html">
+                    <span class="navText">宴会コース</span>
+                    <img class="navIcon" src="images/icon_party.png" alt="宴会コース">
+                </a></li>
+                <li><a href="index.html#access"><img src="images/icon_address.png" alt="マップアイコン"></a></li>
+                <li><a href="tel:05054889491"><img src="images/icon_phone.png" alt="電話アイコン"></a></li>
+                <li><a href="https://r.gnavi.co.jp/agg4ncz30000/" target="_blank" rel="noopener noreferrer"><img src="images/icon_carender.png" alt="カレンダーアイコン"></a></li>
+            </ul>
+        </nav>
+ </div>
+</header>
+
+<main>
+<section class="subhero drinkhero">
+
+</section>
+
+<img src="images/icon.png" alt="赤丸マーク">
+
+<h2 class="sectionTitle">おしながき</h2>
+
+<section class="menuPhoto">
+    <div class="innerWrap">
+
+    <h3>-recommend-</h3>
+    <div class="menuWrap">
+
+    <!-- おすすめ3枚 -->
+    <figure class="menuCard">
+        <img src="images/menu102.png" alt="大根のから揚げ">
+        <figcaption>大根のから揚げ</figcaption>
+    </figure>
+
+    <figure class="menuCard">
+        <img src="images/menu101.png" alt="岩塩で食べる地どうふ">
+        <figcaption>岩塩で食べる地どうふ</figcaption>
+    </figure>
+
+    <figure class="menuCard">
+        <img src="images/menu103.png" alt="馬肉のたたき">
+        <figcaption>馬肉のたたき</figcaption>
+    </figure>
+
+    </div>
+
+    <div class="moreBtn">
+    <button type="button" id="openGallery">もっと見る　+</button>
+    </div>
+
+    </div>
+
+</section>
+
+
+<!--============ 写真一覧モーダル =============-->
+
+<div class="modal" id="galleryModal">
+
+    <div class="galleryModalContent">
+
+        <button class="closeBtn" id="closeGallery">
+            ×
+        </button>
+
+        <h3>- menu gallery -</h3>
+
+        <!-- 写真一覧 -->
+        <div class="galleryGrid">
+
+            <figure class="galleryItem">
+                <img src="images/menu102.png" alt="大根のから揚げ">
+                <figcaption>大根のから揚げ</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu101.png" alt="岩塩で食べる地どうふ">
+                <figcaption>岩塩で食べる地どうふ</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu103.png" alt="馬肉のたたき">
+                <figcaption>馬肉のたたき</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu201.png" alt="お刺身">
+                <figcaption>お刺身</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu202.png" alt="ブリカマ焼き">
+                <figcaption>ブリカマ焼き</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu203.png" alt="ホルモン焼きソバ">
+                <figcaption>ホルモン焼きソバ</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu204.png" alt="国産和牛上ミノ湯引き">
+                <figcaption>国産和牛上ミノ湯引き</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu205.png" alt="牛スジ煮込み">
+                <figcaption>牛スジ煮込み</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu206.png" alt="馬刺し三種盛り">
+                <figcaption>馬刺し三種盛り</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu207.png" alt="馬肉だし茶漬け">
+                <figcaption>馬肉だし茶漬け</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu301.png" alt="お店のメニュー">
+                <figcaption>お店のメニュー</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu302.png" alt="お店のメニュー">
+                <figcaption>お店のメニュー</figcaption>
+            </figure>
+
+            <figure class="galleryItem">
+                <img src="images/menu/menu303.png" alt="お店のメニュー">
+                <figcaption>お店のメニュー</figcaption>
+            </figure>
+
+
+            <!--===============-追加用==============
+
+            <figure class="galleryItem">
+                <img src="#" alt="#">
+                <figcaption>お店のメニュー</figcaption>
+            </figure>
+
+            =========================================-->
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     写真拡大モーダル
+========================= -->
+
+
+<div class="photoModal" id="photoModal">
+
+    <button class="photoCloseBtn" id="photoCloseBtn">
+        ×
+    </button>
+
+    <img id="largeImage" src="#" alt="">
+
+    <p id="largeCaption"></p>
+
+</div>
+
+
+
+<!--------以下おしながき------------->
+
+<section class="menu">
+
+    <!-- タブ -->
+    <div class="tab">
+        <button class="tabBtn active" data-tab="drink">ドリンク</button>
+        <button class="tabBtn" data-tab="food">フード</button>
+    </div>
+
+    <!-- ドリンク -->
+    <div id="drink" class="tabContent active drink">
+
+    <details>
+        <summary>日本酒</summary>
+        <ul>
+            <li>
+                <span class="name">本日の日本酒</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">今週の日本酒</span>
+                <span class="price">660円</span>
+            </li>
+            <li>
+                <span class="name">ほか日本酒</span>
+                <span class="price">880円～</span>
+            </li>
+            <p>
+                十四代、新政などもございます。店舗にて、ぜひお尋ねください。<br>
+                詳しくは、<a href="sake.html">こちらのページ</a>をご覧ください。
+            </p>
+        </ul>
+    </details>
+
+    <details>
+        <summary>ビール</summary>
+        <ul>
+            <li>
+                <span class="name">生ビール</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">瓶ビール</span>
+                <span class="price">730円</span>
+            </li>
+            <li>
+                <span class="name">クラフトビール</span>
+                <span class="price">680円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>チューハイ</summary>
+        <ul>
+            <li>
+                <span class="name">プレーン</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">レモン</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">ライム</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">グレープ</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">グレープフルーツ</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">シークアーサー</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">カルピス</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">宇治茶</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">赤梅</span>
+                <span class="price">550円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>焼酎</summary>
+        <ul>
+            <li>
+                <span class="name">芋 黒霧島</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">麦 いいちこ</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">ほか焼酎</span>
+                <span class="price">990円～</span>
+            </li>
+            <p>
+                フラミンゴ、㐂六などもございます。店舗にて、ぜひお尋ねください。<br>
+            </p>
+        </ul>
+    </details>
+
+    <details>
+        <summary>ウイスキー</summary>
+        <ul>
+            <li>
+                <span class="name">オーシャンラッキー（ハイボール）</span>
+                <span class="price">580円</span>
+            </li>
+            <li>
+                <span class="name">マルス（静岡）</span>
+                <span class="price">700円</span>
+            </li>
+
+            <!----------------品切れ-----------------------
+            <li>
+                <span class="name">ピーク（岐阜）</span>
+                <span class="price">700円</span>
+            </li>
+            ----------------------------------------------->
+
+            <li>
+                <span class="name">サンピース（三重）</span>
+                <span class="price">700円</span>
+            </li>
+
+            <!----------------品切れ-----------------------
+            <li>
+                <span class="name">サンシャイン（富山）</span>
+                <span class="price">700円</span>
+            </li>
+             ----------------------------------------------->
+
+            <li>
+                <span class="name">ホワイトオーク（兵庫）</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">チェリー（福島）</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">ほかウイスキー</span>
+                <span class="price">770円～</span>
+            </li>
+            <p>
+                山崎、AOなどもございます。店舗にて、ぜひお尋ねください。<br>
+            </p>
+        </ul>
+    </details>
+
+    <details>
+        <summary>その他</summary>
+        <ul>
+            <li>
+                <span class="name">梅酒</span>
+                <span class="price">500円</span>
+            </li>
+            <li>
+                <span class="name">氷結 無糖レモン</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">レモンチェロ</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">翠ジン</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">ハウスワイン（赤・白）</span>
+                <span class="price">550円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>ソフトドリンク</summary>
+        <ul>
+            <li>
+                <span class="name">コーラ</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">ジンジャーエール</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">オレンジジュース</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">アップルジュース</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">カルピス</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">ウーロン茶</span>
+                <span class="price">400円</span>
+            </li>
+        </ul>
+    </details>
+
+</div>
+
+<!-- フード -->
+<div id="food" class="tabContent food">
+
+    <details>
+        <summary>おすすめ</summary>
+        <ul>
+            <li>
+                <span class="name">大根のから揚げ</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">岩塩で食べる地どうふ</span>
+                <span class="price">660円</span>
+            </li>
+            <li>
+                <span class="name">馬肉のたたき</span>
+                <span class="price">1,300円</span>
+            </li>
+            <li>
+                <span class="name">だしまかず</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">馬生レバー</span>
+                <span class="price">1,600円</span>
+            </li>
+            <li>
+                <span class="name">トマトスライス</span>
+                <span class="price">400円</span>
+            </li>
+            <li>
+                <span class="name">ちくわのいそべあげ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">牛肉のしぐれ煮</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">牛カッパ肉からあげ</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">がんす（魚のすり身フライ）</span>
+                <span class="price">450円</span>
+            </li>
+            <li>
+                <span class="name">ホルモン焼きソバ</span>
+                <span class="price">1,300円</span>
+            </li>
+            <li>
+                <span class="name">旨から高菜チャーハン</span>
+                <span class="price">1,000円</span>
+            </li>
+
+             <!----------------品切れ-----------------------
+            <li>
+                <span class="name">馬肉ギョーザ（5個）</span>
+                <span class="price">1,000円</span>
+            </li>
+            <li>
+                <span class="name">万願寺天ぷら</span>
+                <span class="price">750円</span>
+            </li>
+            <li>
+                <span class="name">おじゃこと万願寺のおばんざい</span>
+                <span class="price">500円</span>
+            </li>
+
+            ------------------------------------------------>
+
+            <li>
+                <span class="name">鶏ボンジリからあげ</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">牛スジ煮込み</span>
+                <span class="price">800円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>馬肉</summary>
+        <ul>
+            <li>
+                <span class="name">馬刺し三種盛り</span>
+                <span class="price">2,500円</span>
+            </li>
+            <li>
+                <span class="name">特選霜降り</span>
+                <span class="price">2,000円</span>
+            </li>
+            <li>
+                <span class="name">たてがみ</span>
+                <span class="price">1,850円</span>
+            </li>
+            <li>
+                <span class="name">赤身ロース</span>
+                <span class="price">1,200円</span>
+            </li>
+            <li>
+                <span class="name">ハラミ</span>
+                <span class="price">1,200円</span>
+            </li>
+            <li>
+                <span class="name">ヒレ</span>
+                <span class="price">1,100円</span>
+            </li>
+            <li>
+                <span class="name">馬生レバー</span>
+                <span class="price">1,600円</span>
+            </li>
+            <li>
+                <span class="name">桜ユッケ</span>
+                <span class="price">1,200円</span>
+            </li>
+            <li>
+                <span class="name">馬肉の炙り</span>
+                <span class="price">1,850円</span>
+            </li>
+            <li>
+                <span class="name">馬肉のたたき</span>
+                <span class="price">1,300円</span>
+            </li>
+            <li>
+                <span class="name">馬焼肉盛り合わせ</span>
+                <span class="price">4,000円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>お刺身</summary>
+        <ul>
+            <li>
+                <span class="name">本日のお刺身</span>
+                <span class="price">700円</span>
+            </li>
+
+            <li>
+                <span class="name">刺身の盛り合わせ</span>
+                <span class="price">1,700円</span>
+            </li>
+
+            <p>
+                マグロ・タイ・タコ・ブリトロ・〆サバ・サーモンなど。<br>
+                ※仕入れ状況により、内容が変更となる場合がございます。
+            </p>
+        </ul>
+    </details>
+
+    <details>
+        <summary>おつまみ</summary>
+        <ul>
+            <li>
+                <span class="name">きゅうり一本漬</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">ナス一本漬</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">お漬物盛り</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">サメ軟骨ウメ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">本わさび昆布</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">ショウガ昆布</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">ひろみのヘシコ</span>
+                <span class="price">750円</span>
+            </li>
+            <li>
+                <span class="name">博多酢モツ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">カニ味噌</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">あん肝</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">お刺身クラゲ</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">炙り明太子</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">板わさ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">チャンジャ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">じゃこおろし</span>
+                <span class="price">500円</span>
+            </li>
+            <li>
+                <span class="name">なめたけおろし</span>
+                <span class="price">500円</span>
+            </li>
+            <li>
+                <span class="name">馬力</span>
+                <span class="price">500円</span>
+            </li>
+            <li>
+                <span class="name">もろきゅう</span>
+                <span class="price">500円</span>
+            </li>
+            <li>
+                <span class="name">らっきょ</span>
+                <span class="price">450円</span>
+            </li>
+            <li>
+                <span class="name">おつまみ三種</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">岩塩で食べる地豆腐</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">エイヒレ炙り</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">トマトスライス</span>
+                <span class="price">400円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>一品</summary>
+        <ul>
+            <li>
+                <span class="name">赤ウインナー</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">チョリソー</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">ガーリックウインナー</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">バーブウインナー</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ウインナー三種</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">厚切りベーコン</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">ベーコンエッグ</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">ゴーヤチャンプル</span>
+                <span class="price">1,100円</span>
+            </li>
+            <li>
+                <span class="name">餃子</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">青トウガラシ餃子</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">激辛餃子</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">四川麻婆豆腐</span>
+                <span class="price">1,100円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛ホホのから揚げ</span>
+                <span class="price">950円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛ホホの塩焼き</span>
+                <span class="price">950円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛上ミノ湯引き</span>
+                <span class="price">950円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛センマイ刺し</span>
+                <span class="price">950円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>焼き物</summary>
+        <ul>
+            <li>
+                <span class="name">ブリカマ焼き</span>
+                <span class="price">1,100円</span>
+            </li>
+            <li>
+                <span class="name">サワラ焼き</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">サバ焼き</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">鮭ハラス焼き</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">ししゃも焼き</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">厚切り鮭焼き</span>
+                <span class="price">750円</span>
+            </li>
+            <li>
+                <span class="name">親鶏炭火焼き</span>
+                <span class="price">750円</span>
+            </li>
+            <li>
+                <span class="name">砂ずり焼き</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">セセリ塩焼き</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">こてっちゃん</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">トントロ焼き</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛ホルモン塩焼き</span>
+                <span class="price">1,100円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛カルビ焼き</span>
+                <span class="price">1,200円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛ハツ焼き</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">国産和牛レバニラ</span>
+                <span class="price">900円</span></li>
+            <li>
+                <span class="name">国産和牛タン塩焼き</span>
+                <span class="price">900円</span></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>揚げ物</summary>
+        <ul>
+            <li>
+                <span class="name">ハムカツ</span>
+                <span class="price">450円</span>
+            </li>
+            <li>
+                <span class="name">ボンジリのから揚げ</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">さきイカの天ぷら</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ごぼうのから揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ナンコツのから揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">鶏のから揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ホルモンのから揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">下足のから揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">レンコンハサミ揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">しいたけの肉詰め</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ササミ大葉揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ササミチーズ揚げ</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">旨辛ササミチキン</span>
+                <span class="price">650円</span>
+            </li>
+            <li>
+                <span class="name">ササミフライ三種</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">ちくわのいそべ揚げ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">クリームコロッケ</span>
+                <span class="price">450円</span>
+            </li>
+            <li>
+                <span class="name">コロッケ（2個）</span>
+                <span class="price">550円</span>
+            </li>
+            <li>
+                <span class="name">ポテトフライ</span>
+                <span class="price">600円</span>
+            </li>
+            <li>
+                <span class="name">超ビッグメンチカツ</span>
+                <span class="price">1,300円</span>
+            </li>
+            <li>
+                <span class="name">大きくて長いヒレカツ</span>
+                <span class="price">1,300円</span>
+            </li>
+            <li>
+                <span class="name">アジフライ（2枚）</span>
+                <span class="price">800円</span>
+            </li>
+            <li>
+                <span class="name">ビッグコロッケ</span>
+                <span class="price">850円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>サラダ</summary>
+        <ul>
+            <li>
+                <span class="name">赤まるサラダ（野菜サラダ）</span>
+                <span class="price">950円</span>
+            </li>
+            <li>
+                <span class="name">ポテトサラダ</span>
+                <span class="price">680円</span>
+            </li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>ご飯物</summary>
+        <ul>
+            <li>
+                <span class="name">チャーハン</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">高菜チャーハン</span>
+                <span class="price">900円</span>
+            </li>
+            <li>
+                <span class="name">旨辛チャーハン</span>
+                <span class="price">1,000円</span>
+            </li>
+            <li>
+                <span class="name">ガーリックチャーハン</span>
+                <span class="price">1,000円</span>
+            </li>
+            <li>
+                <span class="name">焼きそば（ミックス）</span>
+                <span class="price">1,000円</span>
+            </li>
+            <li>
+                <span class="name">海鮮ユッケ丼</span>
+                <span class="price">1,000円</span>
+            </li>
+            <li>
+                <span class="name">お茶漬け</span>
+                <span class="price">700円</span>
+            </li>
+            <li>
+                <span class="name">四川麻婆丼</span>
+                <span class="price">1,200円</span>
+            </li>
+            <li>
+                <span class="name">四川麻婆麺（まぜ麺）</span>
+                <span class="price">1,300円</span>
+            </li>
+        </ul>
+    </details>
+
+</div>
+
+</div>
+
+<div class="menuPDF">
+    <p>PDFでメニューを見る</p>
+            <a href="pdf/drink.pdf" target="_blank" class="pdf">
+                ・ドリンク（PDF）
+            </a>
+
+            <a href="pdf/food.pdf" target="_blank" class="pdf">
+                ・　フード（PDF）
+            </a>
+</div>
+
+</section>
+
+
+
+<script>
+
+    /* =========================
+       タブ切り替え
+    ========================= */
+
+    const tabs = document.querySelectorAll(".tabBtn");
+    const contents = document.querySelectorAll(".tabContent");
+
+    tabs.forEach(tab => {
+
+        tab.addEventListener("click", () => {
+
+            tabs.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            contents.forEach(content => {
+                content.classList.remove("active");
+            });
+
+            tab.classList.add("active");
+
+            document
+                .getElementById(tab.dataset.tab)
+                .classList.add("active");
+
+        });
+
+    });
+
+
+    /* =========================
+       写真一覧モーダル
+    ========================= */
+
+    const galleryModal =
+        document.getElementById("galleryModal");
+
+    const openGallery =
+        document.getElementById("openGallery");
+
+    const closeGallery =
+        document.getElementById("closeGallery");
+
+
+    // もっと見るをクリック
+
+    openGallery.addEventListener("click", () => {
+
+        galleryModal.style.display = "block";
+
+    });
+
+
+    // ×をクリック
+
+    closeGallery.addEventListener("click", () => {
+
+        galleryModal.style.display = "none";
+
+    });
+
+
+    /* =========================
+       写真拡大
+    ========================= */
+    const galleryItems =
+        document.querySelectorAll(".galleryItem");
+
+    const photoModal =
+        document.getElementById("photoModal");
+
+    const largeImage =
+        document.getElementById("largeImage");
+
+    const largeCaption =
+        document.getElementById("largeCaption");
+
+    const photoCloseBtn =
+        document.getElementById("photoCloseBtn");
+
+
+    galleryItems.forEach(item => {
+
+        item.addEventListener("click", () => {
+
+            const image =
+                item.querySelector("img");
+
+            const caption =
+                item.querySelector("figcaption");
+
+
+            largeImage.src = image.src;
+
+            largeImage.alt = image.alt;
+
+            largeCaption.textContent =
+                caption.textContent;
+
+
+            photoModal.style.display = "flex";
+
+        });
+
+    });
+
+
+    // 拡大写真を閉じる
+
+    photoCloseBtn.addEventListener("click", () => {
+
+        photoModal.style.display = "none";
+
+    });
+
+
+
+    /* =========================
+       背景クリックで閉じる
+    ========================= */
+
+    galleryModal.addEventListener("click", (event) => {
+
+        if (event.target === galleryModal) {
+
+            galleryModal.style.display = "none";
+
+        }
+
+    });
+
+
+    photoModal.addEventListener("click", (event) => {
+
+        if (event.target === photoModal) {
+
+            photoModal.style.display = "none";
+
+        }
+
+    });
+
+</script>
+</main>
+
+
+<footer>
+    <div class="innerWrap">
+    <p>
+        <a href="index.html"><img src="images/icon3.png" alt="logo"></a>
+    </p>
+    <div class="footerInfo">
+        <dl>
+        <dt>住所</dt>
+        <dd>
+            〒615-0012<br>
+            京都府京都市右京区西院高山寺町15-2<br>
+            <a href="tel:0753210031"  class="tel-link">
+                📞：075-321-0031
+            </a>
+        </dd>
+        </dl>
+
+        <dl>
+        <dt>営業時間</dt>
+        <dd>
+             月・水～金　17:00～24:00（L.O.23:30）<br>
+             土・日・祝日　14:00～24:00（L.O.23:30）
+        </dd>
+        </dl>
+
+        <dl>
+        <dt>定休日</dt>
+        <dd>
+            火曜日/ほか不定休
+        </dd>
+        </dl>
+    </div>
+    <div class="footerIcon">
+    <p>
+        <a href="#"><img src="images/icon_fb.png" alt="facebook"></a>
+        <a href="#"><img src="images/icon_ig.png" alt="instagram"></a>
+    </p>
+    </div>
+    <small>Copyright © 吞み処　赤まる</small>
+    </div>
+
+</footer>
+
+</body>
