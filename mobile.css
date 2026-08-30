@@ -1,0 +1,285 @@
+
+/* -----スマホ用----- */
+@media screen and (max-width:768px){
+
+
+
+header nav li {
+    font-size: 0.7rem;
+    padding: 10px 6px;
+}
+.navText {
+    display: none;
+}
+header nav li img,
+.logo img,
+.navIcon{
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+
+
+.hero{
+    height: 70vh;
+}
+.heroLogo {
+    width: 100%;
+}
+
+
+/* ---------------------- */
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+main{
+    padding-top: 0px;
+}
+
+.menuBtn,
+.bookingBtn,
+.sakeBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.sectionTitle{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+/* ----------index------------ */
+
+
+.sakeItem {
+    display: block;
+}
+
+.bx-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.slider img {
+    height: auto;
+}
+
+
+.accessItem{
+    display: block;
+}
+.maps iframe{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.storeInfo dt {
+    font-weight: bold;
+    padding-top: 0.9rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.storeInfo .note {
+    font-size: 0.6rem;
+
+}
+
+
+.footerInfo{
+    display: block;
+}
+.footerInfo dl{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.footerIcon p img{
+    height: 20px;
+    width: auto;
+}
+
+/* ----------sake------------ */
+
+
+.sakeWrap{
+    display: block;
+}
+
+.akamaruCard{
+    width: 100%;
+}
+.akamaruCard img{
+    width: 100%;
+    height: 250px;
+}
+h3{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.sakeText,
+.orderText,
+.orderImg {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+.orderItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderImg img {
+    min-height: auto;
+    height: auto;
+    width: 100%;
+}
+
+/* 写真とテキスト配置替え */
+.orderItem.reverseMobile .orderImg {
+    order: 1;
+}
+.orderItem.reverseMobile .orderText {
+    order: 2;
+}
+.orderItem:not(.reverseMobile) .orderText {
+    order: 1;
+}
+.orderItem:not(.reverseMobile) .orderImg {
+        order: 2;
+}
+/* ---------------------- */
+
+.sakeCards{
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.sakeCard{
+    padding: 25px 20px;
+}
+
+
+/* ----------drink------------ */
+
+.menuWrap{
+    display: block;
+}
+
+.menuCard{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.menuCard img{
+    width: 100%;
+    height: 200px;
+}
+
+
+/* もっと見る */
+
+.moreBtn {
+    margin-top: 25px;
+}
+
+/* 写真一覧 */
+
+.modal {
+    padding: 30px 10px;
+}
+
+
+ .galleryModalContent {
+    width: 100%;
+    padding: 50px 15px 30px;
+}
+
+
+.galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* =========================
+       拡大写真
+
+.photoModal {
+    padding: 20px;
+}
+
+.photoModal img {
+    max-width: 95%;
+    max-height: 80vh;
+}
+
+    .photoCloseBtn {
+    top: 10px;
+    right: 15px;
+    font-size: 35px;
+}
+
+
+
+==========================>
+
+
+
+/* ----------party------------ */
+.menu{
+    width:80%;
+}
+.menu ul {
+    width: 90%;
+    padding: 0;
+}
+.menu p{
+    font-size: 0.8rem;
+}
+
+summary{
+    font-size:1rem;
+}
+
+/*party*/
+
+.atention{
+    width: 80%;
+}
+.atention p{
+    text-align: left;
+    font-size: 1rem;
+}
+.atention ul li{
+   font-size: 0.7rem;
+}
+
+
+/* ---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
