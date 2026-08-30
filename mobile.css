@@ -6,17 +6,21 @@
 
 header nav li {
     font-size: 0.7rem;
-    padding: 10px 6px;
+    padding: 12px 10px;
+}
+.homeIcon{
+    display: none;
 }
 .navText {
     display: none;
 }
-header nav li img,
-.logo img,
+
+.logo img{
+    height: 32px;
+}
+
 .navIcon{
     display: block;
-    height: 20px;
-    width: auto;
 }
 
 
@@ -104,9 +108,10 @@ main{
     margin-bottom: 1rem;
     width: 100%;
 }
-.footerIcon p img{
-    height: 20px;
+.snsIcon p img{
+    height: 32px;
     width: auto;
+    padding: 0 12px;
 }
 
 /* ----------sake------------ */
